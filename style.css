@@ -504,3 +504,39 @@ footer a {
         font-size: 17px;
     }
 }
+/* ==============================
+   SERVICE PRICE
+   ============================== */
+
+.service-price {
+    margin-top: 18px;
+    padding-top: 12px;
+    border-top: 1px solid #ead7c3;
+    color: #b84d0b;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.services-note {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    padding: 16px 20px;
+    background: #fff3e3;
+    border: 1px solid #ead7c3;
+    border-radius: 12px;
+    color: #5a4030;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+
+    .service-price {
+        font-size: 17px;
+    }
+
+    .services-note {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+}
