@@ -540,3 +540,77 @@ footer a {
         padding: 14px 16px;
     }
 }
+/* ==============================
+   WHY CHOOSE US
+   ============================== */
+
+.why-us {
+    padding: 75px 25px;
+    background: #fffdf8;
+}
+
+.why-us-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.why-us-card {
+    background: white;
+    padding: 30px 22px;
+    border-radius: 18px;
+    border: 1px solid #ead7c3;
+    box-shadow: 0 6px 20px rgba(70, 35, 15, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-us-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(70, 35, 15, 0.15);
+}
+
+.why-us-icon {
+    font-size: 40px;
+    margin-bottom: 14px;
+}
+
+.why-us-card h3 {
+    color: #8b4513;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.why-us-card p {
+    color: #5a4030;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ---------- WHY US MOBILE ---------- */
+
+@media (max-width: 900px) {
+
+    .why-us-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .why-us {
+        padding: 55px 18px;
+    }
+
+    .why-us-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .why-us-card {
+        padding: 25px 20px;
+    }
+}
