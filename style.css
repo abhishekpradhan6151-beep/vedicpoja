@@ -895,3 +895,79 @@ footer a {
         font-size: 16px;
     }
 }
+/* ==============================
+   PREMIUM BOOKING CTA
+   ============================== */
+
+.booking-cta {
+    padding: 75px 25px;
+    background: linear-gradient(135deg, #7b3210, #a95216);
+}
+
+.booking-content {
+    max-width: 850px;
+    margin: auto;
+    padding: 50px 35px;
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 26px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(60, 25, 5, 0.25);
+}
+
+.booking-content .section-tag {
+    margin-bottom: 10px;
+}
+
+.booking-content h2 {
+    font-size: 38px;
+    color: #4a2818;
+    margin-bottom: 15px;
+}
+
+.booking-content > p:not(.section-tag) {
+    max-width: 650px;
+    margin: 0 auto 28px;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #5a4030;
+}
+
+.booking-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.booking-buttons .button {
+    min-width: 150px;
+}
+
+@media (max-width: 700px) {
+
+    .booking-cta {
+        padding: 55px 18px;
+    }
+
+    .booking-content {
+        padding: 38px 20px;
+    }
+
+    .booking-content h2 {
+        font-size: 29px;
+    }
+
+    .booking-content > p:not(.section-tag) {
+        font-size: 17px;
+    }
+
+    .booking-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .booking-buttons .button {
+        width: 100%;
+        max-width: 280px;
+    }
+}
