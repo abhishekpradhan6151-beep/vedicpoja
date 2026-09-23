@@ -1179,10 +1179,12 @@ footer a {
     background: white;
 }
 
-.contact-profile .contact-buttons .button {
-    color: white !important;
+.contact-profile .contact-buttons a.button {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
 }
 
-.contact-profile .contact-buttons .button:hover {
-    color: white !important;
+.contact-profile .contact-buttons a.button:hover {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
 }
