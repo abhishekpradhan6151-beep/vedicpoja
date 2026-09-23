@@ -1156,3 +1156,12 @@ footer a {
         max-width: 280px;
     }
 }
+/* Fix contact profile button text */
+
+.contact-buttons .button {
+    color: white;
+}
+
+.contact-buttons .button:hover {
+    color: white;
+}
