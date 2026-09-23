@@ -971,3 +971,80 @@ footer a {
         max-width: 280px;
     }
 }
+/* ==============================
+   PREMIUM CONTACT HERO
+   ============================== */
+
+.contact-hero {
+    padding: 80px 25px;
+    background: linear-gradient(135deg, #fff8ed, #fffdf8);
+    text-align: center;
+}
+
+.contact-hero-content {
+    max-width: 850px;
+    margin: auto;
+    padding: 55px 35px;
+    background: white;
+    border-radius: 26px;
+    border: 1px solid #ead7c3;
+    box-shadow: 0 12px 30px rgba(70, 35, 15, 0.12);
+}
+
+.contact-hero-content .section-tag {
+    margin-bottom: 10px;
+}
+
+.contact-hero-content h2 {
+    font-size: 40px;
+    color: #4a2818;
+    margin-bottom: 18px;
+}
+
+.contact-hero-content > p:not(.section-tag) {
+    max-width: 680px;
+    margin: 0 auto 30px;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #5a4030;
+}
+
+.contact-hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contact-hero-buttons .button {
+    min-width: 150px;
+}
+
+@media (max-width: 700px) {
+
+    .contact-hero {
+        padding: 55px 18px;
+    }
+
+    .contact-hero-content {
+        padding: 40px 20px;
+    }
+
+    .contact-hero-content h2 {
+        font-size: 29px;
+    }
+
+    .contact-hero-content > p:not(.section-tag) {
+        font-size: 17px;
+    }
+
+    .contact-hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-hero-buttons .button {
+        width: 100%;
+        max-width: 280px;
+    }
+}
