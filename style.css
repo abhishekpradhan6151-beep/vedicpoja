@@ -1165,3 +1165,24 @@ footer a {
 .contact-buttons .button:hover {
     color: white;
 }
+/* ==============================
+   CONTACT PROFILE FINAL POLISH
+   ============================== */
+
+.contact-profile {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.contact-profile .contact-profile-content {
+    background: white;
+}
+
+.contact-profile .contact-buttons .button {
+    color: white !important;
+}
+
+.contact-profile .contact-buttons .button:hover {
+    color: white !important;
+}
