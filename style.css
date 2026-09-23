@@ -1048,3 +1048,111 @@ footer a {
         max-width: 280px;
     }
 }
+/* ==============================
+   CONTACT PROFILE CARD
+   ============================== */
+
+.contact-profile {
+    padding: 65px 25px;
+}
+
+.contact-profile-content {
+    max-width: 850px;
+    margin: auto;
+    padding: 50px 35px;
+    background: white;
+    border-radius: 26px;
+    border: 1px solid #ead7c3;
+    box-shadow: 0 10px 28px rgba(70, 35, 15, 0.10);
+    text-align: center;
+}
+
+.contact-profile-content .section-tag {
+    margin-bottom: 10px;
+}
+
+.contact-profile-content h2 {
+    font-size: 34px;
+    color: #4a2818;
+    margin-bottom: 15px;
+}
+
+.contact-intro {
+    font-size: 19px;
+    color: #8b4513;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.contact-details p {
+    margin: 0;
+    font-size: 18px;
+    color: #5a4030;
+}
+
+.contact-details a {
+    color: #b84d0b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contact-buttons .button {
+    min-width: 150px;
+}
+
+@media (max-width: 700px) {
+
+    .contact-profile {
+        padding: 45px 18px;
+    }
+
+    .contact-profile-content {
+        padding: 38px 20px;
+    }
+
+    .contact-profile-content h2 {
+        font-size: 28px;
+    }
+
+    .contact-intro {
+        font-size: 17px;
+    }
+
+    .contact-details {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-details p {
+        font-size: 17px;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-buttons .button {
+        width: 100%;
+        max-width: 280px;
+    }
+}
