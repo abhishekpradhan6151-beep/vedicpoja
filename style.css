@@ -784,3 +784,114 @@ footer a {
         font-size: 16px;
     }
 }
+/* ==============================
+   PREMIUM ABOUT PREVIEW
+   ============================== */
+
+.about-preview {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    align-items: center;
+    gap: 65px;
+    text-align: left;
+}
+
+.about-preview-image {
+    text-align: center;
+}
+
+.about-preview-image img {
+    width: 100%;
+    max-width: 450px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 24px;
+    border: 6px solid white;
+    box-shadow: 0 14px 35px rgba(70, 35, 15, 0.18);
+}
+
+.about-preview-content {
+    padding: 10px 0;
+}
+
+.about-preview-content .section-tag {
+    font-size: 18px;
+    color: #b84d0b;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-preview-content h2 {
+    font-size: 38px;
+    color: #4a2818;
+    margin-bottom: 18px;
+}
+
+.about-intro {
+    font-size: 19px;
+    color: #5a4030;
+    line-height: 1.7;
+    margin-bottom: 28px;
+}
+
+.about-points {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 30px;
+}
+
+.about-points > div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-points span {
+    font-size: 30px;
+    min-width: 42px;
+}
+
+.about-points p {
+    margin: 0;
+    font-size: 17px;
+    color: #5a4030;
+    line-height: 1.5;
+}
+
+
+/* ---------- ABOUT MOBILE ---------- */
+
+@media (max-width: 700px) {
+
+    .about-preview {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .about-preview-image img {
+        max-width: 380px;
+        height: 420px;
+    }
+
+    .about-preview-content h2 {
+        font-size: 29px;
+    }
+
+    .about-intro {
+        font-size: 17px;
+    }
+
+    .about-points {
+        text-align: left;
+    }
+
+    .about-points p {
+        font-size: 16px;
+    }
+}
